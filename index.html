@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Inter", sans-serif;
+    }
+
+    body {
+      background-color: #f2f2f2;
+    }
+
+    .header-division {
+      width: 100%;
+      height: 59px;
+      background-color: #0a3f46;
+    }
+
+    .title {
+      display: flex;
+      align-items: center;
+    }
+
+    img {
+      width: 105px;
+      height: 100px;
+    }
+
+    h1 {
+      font-size: 64px;
+      color: #0a3f46;
+    }
+
+    .hero {
+      margin: 23px 40px;
+      background-color: #0a3f46;
+      height: 454px;
+      padding: 67px 46px;
+    }
+
+    .hero-text-container {
+      width: 854px;
+      color: #f2f2f2;
+    }
+    h3 {
+      font-size: 40px;
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 24px;
+      line-height: 29.05px;
+      height: 189px;
+    }
+
+    input {
+      width: 601px;
+      height: 57px;
+      border-radius: 30px;
+      background-color: #d9d9d9;
+      border: none;
+      padding: 20px;
+      padding-right: 60px;
+      background-image: url(./14562\ 1.png);
+      background-repeat: no-repeat;
+      background-position: 550px;
+      background-size: 32px;
+    }
+
+    .list {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      row-gap: 15px;
+      column-gap: 23px;
+      text-align: center;
+      margin-top: 32px;
+    }
+
+    .list-container {
+      width: 854px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    .list-item {
+      width: 341px;
+      height: 77px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    li:hover {
+      cursor: pointer;
+      transform: scale(1.02);
+    }
+
+    a {
+      font-weight: bold;
+      text-decoration: none;
+      color: #f2f2f2;
+    }
+
+    #economia {
+      background-color: #469ded;
+    }
+
+    #transporte {
+      background-color: #f2933c;
+    }
+
+    #saude {
+      background-color: #4eb258;
+    }
+
+    #defesa {
+      background-color: #ee3838;
+    }
+
+    #educacao {
+      background-color: #f6ce43;
+    }
+
+    #cultura {
+      background-color: #9a46ed;
+    }
+  </style>
+  <body>
+    <header>
+      <div class="title">
+        <img src="./U_3.png" alt="Logo Unifica" />
+        <h1>Unifica</h1>
+      </div>
+
+      <div class="header-division" >
+    </header>
+    <main>
+      <div class="hero">
+        <div class="hero-text-container">
+          <h3>
+            Plataforma <br />
+            Unifica
+          </h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
+            natus unde iusto quis magni facere cumque a eligendi autem, incidunt
+            explicabo ullam molestias deserunt sequi odio dolorum laudantium
+            quas saepe? Fugit placeat illo temporibus perspiciatis?
+            Voluptatibus, alias molestias quo rem quidem, laborum itaque, omnis
+            dolorem neque fugiat mollitia quaerat natus. Eos temporibus possimus
+            maxime repudiandae sunt nemo tempora in rem?
+          </p>
+        </div>
+      </div>
+      <div class="list-container">
+        <input type="text" placeholder="Ex: Receita federal, Detran, SUS" />
+        <ul class="list">
+          <li id="economia" class="list-item">
+            <a href=""> Economia </a>
+          </li>
+          <li id="transporte" class="list-item">
+            <a href=""> Transporte </a>
+          </li>
+          <li id="saude" class="list-item">
+            <a href="">Saúde</a>
+          </li>
+          <li id="defesa" class="list-item">
+            <a href="">Defesa e justiça</a>
+          </li>
+          <li id="educacao" class="list-item">
+            <a href="">Educação</a>
+          </li>
+          <li id="cultura" class="list-item">
+            <a href="">Cultura e esportes</a>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
